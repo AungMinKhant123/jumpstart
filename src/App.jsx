@@ -1,4 +1,5 @@
 import "./App.css";
+import Categories from "./components/Categories";
 import Chatbot from "./components/Chatbot";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -9,6 +10,7 @@ const App = () => {
     <>
       <Header />
       <Hero />
+      <Categories />
       <Chatbot />
       <Footer />
     </>
