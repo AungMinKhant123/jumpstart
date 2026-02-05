@@ -19,7 +19,7 @@ const Categories = () => {
             <div className="category-container">
                 {
                     categories.map((category, index) => (
-                        <a href="">
+                        <a href="#">
                             <div className="category-card" key={index}>
                                 <img src={category.image} alt={category.name} />
                                 <div className="bg-blur"></div>
